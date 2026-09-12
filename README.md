@@ -4,7 +4,7 @@
 
 > **Portfolio project:** CONVEX began as a private Excel-based portfolio management system used to translate option positions into leg-level Greeks, position analytics, portfolio exposures, risk limits, scenario analysis, and management signals. This repository contains a **sanitized, self-contained demonstration workbook** plus documentation of the larger private implementation.
 
-![CONVEX Risk Manager](images/risk-manager.png)
+![CONVEX Risk Manager](risk-manager.png)
 
 ## Why I built it
 
@@ -53,25 +53,25 @@ The screenshots below come from the larger private model. Live trades, account v
 
 ### Position analytics
 
-![Positional Analysis](images/positional-analysis.png)
+![Positional Analysis](positional-analysis.png)
 
 The position layer combines trade structure, DTE, P&L, volatility state, momentum/trend measures, skew/IV information, Greeks, portfolio factor tags, management levels, and rule-based action outputs.
 
 ### Leg decomposition and Greek aggregation
 
-![Risk View](images/risk-view.png)
+![Risk View](risk-view.png)
 
 The Risk View converts position-level option structures into individual legs, applies signed quantities, attaches option Greeks, and aggregates the results into ticker- and portfolio-level exposure measures.
 
 ### Event awareness
 
-![Event Dashboard](images/event-dashboard.png)
+![Event Dashboard](event-dashboard.png)
 
 The event dashboard maintains a forward calendar of macro, options-expiration, volatility, and portfolio-review events. In the private model, event proximity can feed back into position-management rules.
 
 ### Historical trade analytics
 
-![Historical Performance](images/historical-performance.png)
+![Historical Performance](historical-performance.png)
 
 Historical trades are grouped by strategy, structure, DTE, and time utilized to evaluate where the trading process has and has not added value. Historical values are redacted in the public screenshot.
 
@@ -80,11 +80,11 @@ Historical trades are grouped by strategy, structure, DTE, and time utilized to 
 
 ### Trade journal
 
-![Trade Journal](images/trade-journal.png)
+![Trade Journal](trade-journal.png)
 
 ### Scenario lab
 
-![Scenario Lab](images/scenario-lab.png)
+![Scenario Lab](scenario-lab.png)
 
 </details>
 
@@ -110,13 +110,13 @@ The larger private implementation includes:
 - fractional Kelly-based position sizing
 - Black-Scholes scenario repricing
 
-See [`docs/methodology.md`](docs/methodology.md) for the methodology overview.
+See [`methodology.md`](methodology.md) for the methodology overview.
 
 ## Working demo
 
 The downloadable workbook is here:
 
-**[`demo/CONVEX_Portfolio_Manager_Demo.xlsx`](demo/CONVEX_Portfolio_Manager_Demo.xlsx)**
+**[`CONVEX_Portfolio_Manager_Demo.xlsx`](CONVEX_Portfolio_Manager_Demo.xlsx)**
 
 The demo uses **synthetic portfolio and option data** so it can be shared publicly without exposing brokerage information, live trades, or licensed third-party market data. It is designed to demonstrate the workflow and analytical logic rather than reproduce every production feature one-for-one.
 
@@ -165,7 +165,7 @@ The private workbook and public demo both have intentional limitations. Among th
 - the current implementation is Excel-first and contains logic that would be easier to test and version-control in Python
 - the private model relies on external data availability
 
-A fuller discussion is available in [`docs/limitations.md`](docs/limitations.md).
+A fuller discussion is available in [`limitations.md`](limitations.md).
 
 ## Next development stage
 
@@ -184,20 +184,17 @@ That would create a clean progression from **spreadsheet prototype → documente
 ```text
 convex-portfolio-manager/
 ├── README.md
-├── demo/
-│   └── CONVEX_Portfolio_Manager_Demo.xlsx
-├── images/
-│   ├── risk-manager.png
-│   ├── risk-view.png
-│   ├── positional-analysis.png
-│   ├── event-dashboard.png
-│   ├── historical-performance.png
-│   ├── trade-journal.png
-│   └── scenario-lab.png
-├── docs/
-│   ├── architecture.md
-│   ├── methodology.md
-│   └── limitations.md
+├── CONVEX_Portfolio_Manager_Demo.xlsx
+├── architecture.md
+├── methodology.md
+├── limitations.md
+├── risk-manager.png
+├── risk-view.png
+├── positional-analysis.png
+├── event-dashboard.png
+├── historical-performance.png
+├── trade-journal.png
+└── scenario-lab.png
 └── .gitignore
 ```
 
