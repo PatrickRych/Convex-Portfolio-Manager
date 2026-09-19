@@ -17,12 +17,19 @@ Broker platforms are good at showing positions and P&L, but I wanted a framework
 - How should portfolio deployment change as volatility changes?
 
 CONVEX was built to turn those questions into a repeatable analytical workflow.
-
+##
 ### 📥 Download the Working Excel Demo
 
 **[Download CONVEX Portfolio Manager — Excel Demo](CONVEX_Portfolio_Manager_Demo.xlsx)**
 
 Explore the synthetic $100,000 portfolio, modify inputs, and inspect the quantitative risk models.
+
+### 📖 Operating Guide & Methodology
+
+**[Read the CONVEX Operating Guide (PDF)](CONVEX_Portfolio_Manager_Operating_Guide.pdf)**
+
+A detailed walkthrough of how I use CONVEX, including trade entry, position analysis, options Greeks, portfolio risk calculations, quantitative formulas, scenario analysis, and position-management decisions.
+##
 
 ## System architecture
 
