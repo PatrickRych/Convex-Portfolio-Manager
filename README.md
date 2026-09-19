@@ -18,6 +18,12 @@ Broker platforms are good at showing positions and P&L, but I wanted a framework
 
 CONVEX was built to turn those questions into a repeatable analytical workflow.
 
+### 📥 Download the Working Excel Demo
+
+**[Download CONVEX Portfolio Manager — Excel Demo](CONVEX_Portfolio_Manager_Demo.xlsx)**
+
+Explore the synthetic $100,000 portfolio, modify inputs, and inspect the quantitative risk models.
+
 ## System architecture
 
 ```mermaid
