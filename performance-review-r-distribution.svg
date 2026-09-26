@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+<title id="t">R-multiple distribution for 259 R-covered trades</title>
+<desc id="d">Counts by R bin: below minus 2 R one; minus 2 to minus 1.5 one; minus 1.5 to minus 1 ten; minus 1 to minus 0.5 forty-four; minus 0.5 to zero seventy-nine; zero to 0.5 eighty-two; 0.5 to 1 twenty-eight; 1 to 1.5 six; 1.5 to 2 one; 2 to 3 six; above 3 one.</desc>
+<rect width="1200" height="560" rx="20" fill="#091b2b"/>
+<text x="45" y="58" fill="#f3f7fb" font-family="Arial, sans-serif" font-size="30" font-weight="700">R-MULTIPLE DISTRIBUTION</text>
+<text x="45" y="88" fill="#92a8bc" font-family="Arial, sans-serif" font-size="16">259 trades with estimated initial risk · mean -0.03R · median -0.01R</text>
+<g transform="translate(75,130)" font-family="Arial, sans-serif">
+<line x1="0" y1="330" x2="1050" y2="330" stroke="#416078"/>
+<line x1="0" y1="250" x2="1050" y2="250" stroke="#203f56"/>
+<line x1="0" y1="170" x2="1050" y2="170" stroke="#203f56"/>
+<line x1="0" y1="90" x2="1050" y2="90" stroke="#203f56"/>
+<g fill="#fb8f8f">
+<rect x="12" y="326" width="70" height="4"/><rect x="107" y="326" width="70" height="4"/><rect x="202" y="290" width="70" height="40"/><rect x="297" y="154" width="70" height="176"/><rect x="392" y="14" width="70" height="316"/>
+</g>
+<g fill="#55c7c2">
+<rect x="487" y="2" width="70" height="328"/><rect x="582" y="218" width="70" height="112"/>
+</g>
+<g fill="#78d99a">
+<rect x="677" y="306" width="70" height="24"/><rect x="772" y="326" width="70" height="4"/><rect x="867" y="306" width="70" height="24"/><rect x="962" y="326" width="70" height="4"/>
+</g>
+<g fill="#dce8f2" font-size="14" text-anchor="middle" font-weight="700">
+<text x="47" y="319">1</text><text x="142" y="319">1</text><text x="237" y="282">10</text><text x="332" y="146">44</text><text x="427" y="8">79</text><text x="522" y="-4">82</text><text x="617" y="210">28</text><text x="712" y="298">6</text><text x="807" y="319">1</text><text x="902" y="298">6</text><text x="997" y="319">1</text>
+</g>
+<g fill="#a9bac9" font-size="12" text-anchor="middle">
+<text x="47" y="354">&lt;-2R</text><text x="142" y="354">-2:-1.5R</text><text x="237" y="354">-1.5:-1R</text><text x="332" y="354">-1:-0.5R</text><text x="427" y="354">-0.5:0R</text><text x="522" y="354">0:0.5R</text><text x="617" y="354">0.5:1R</text><text x="712" y="354">1:1.5R</text><text x="807" y="354">1.5:2R</text><text x="902" y="354">2:3R</text><text x="997" y="354">&gt;3R</text>
+</g>
+</g>
+<rect x="75" y="505" width="1050" height="2" fill="#24475d"/>
+<text x="75" y="535" fill="#9fb1c1" font-family="Arial, sans-serif" font-size="14">62% of R-covered trades sit between -0.5R and +0.5R; the review focuses on reducing the left tail without truncating the right tail.</text>
+</svg>
