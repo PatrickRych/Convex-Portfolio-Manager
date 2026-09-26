@@ -97,6 +97,8 @@ The event dashboard maintains a forward calendar of macro, options-expiration, v
 
 ## 2026 Trading Performance Review
 
+**[Metric legend: n, PF, Payoff, Avg R, Median R, Total R, R Expectancy and more](performance-metric-legend.md)**
+
 The performance-review layer closes the CONVEX feedback loop: the portfolio system measures current exposure and position risk, while the journal review asks whether completed trades are producing repeatable outcomes.
 
 > **Performance disclosure:** The figures below come from the supplied 2026 trading-journal review. They are historical, self-reported and unaudited. They are **not** part of the synthetic demo, have not been reconciled to brokerage statements in this repository, and should not be interpreted as audited investment performance.
