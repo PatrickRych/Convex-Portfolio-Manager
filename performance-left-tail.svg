@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="565" viewBox="0 0 1200 565" role="img" aria-labelledby="t d">
+<title id="t">Left-tail performance diagnostic</title>
+<desc id="d">Reported review statistics: 20 trades at or below minus 1 R, 14 trades at or above plus 1 R, worst trade minus 4.87 R, best trade plus 3.73 R, and the worst ten percent of trades accounted for 50 percent of gross loss.</desc>
+<rect width="1200" height="565" rx="20" fill="#091b2b"/>
+<text x="45" y="58" fill="#f3f7fb" font-family="Arial, sans-serif" font-size="30" font-weight="700">THE LEFT TAIL IS THE NEXT PERFORMANCE PROJECT</text>
+<text x="45" y="87" fill="#92a8bc" font-family="Arial, sans-serif" font-size="16">The review argues that preventing a subset of large losses may matter more than finding additional winners.</text>
+<g font-family="Arial, sans-serif">
+<g transform="translate(45,125)"><rect width="205" height="128" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">TRADES ≤ -1R</text><text x="102.5" y="82" text-anchor="middle" fill="#fff2f2" font-size="32" font-weight="700">20</text><rect y="123" width="205" height="5" fill="#fb7185"/></g>
+<g transform="translate(270,125)"><rect width="205" height="128" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">TRADES ≥ +1R</text><text x="102.5" y="82" text-anchor="middle" fill="#effff7" font-size="32" font-weight="700">14</text><rect y="123" width="205" height="5" fill="#6ee7b7"/></g>
+<g transform="translate(495,125)"><rect width="205" height="128" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">WORST TRADE</text><text x="102.5" y="82" text-anchor="middle" fill="#fff2f2" font-size="32" font-weight="700">-4.87R</text><rect y="123" width="205" height="5" fill="#fb7185"/></g>
+<g transform="translate(720,125)"><rect width="205" height="128" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">BEST TRADE</text><text x="102.5" y="82" text-anchor="middle" fill="#effff7" font-size="32" font-weight="700">+3.73R</text><rect y="123" width="205" height="5" fill="#6ee7b7"/></g>
+<g transform="translate(945,125)"><rect width="210" height="128" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="105" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">WORST 10%</text><text x="105" y="73" text-anchor="middle" fill="#fff3c7" font-size="26" font-weight="700">50%</text><text x="105" y="100" text-anchor="middle" fill="#facc15" font-size="14">of gross loss</text><rect y="123" width="210" height="5" fill="#facc15"/></g>
+</g>
+<rect x="45" y="292" width="1110" height="215" rx="14" fill="#102c43" stroke="#2b4f69"/>
+<text x="70" y="327" fill="#42d4f4" font-family="Arial, sans-serif" font-size="18" font-weight="700">HOW THE REVIEW PROPOSES AUDITING LARGE LOSSES</text>
+<g font-family="Arial, sans-serif" font-size="15" fill="#dce8f2">
+<text x="70" y="365">1. Normal planned loss — thesis failed and the exit rule was followed.</text>
+<text x="70" y="395">2. Thesis invalidated, no exit — process error after the market disproved the thesis.</text>
+<text x="70" y="425">3. Structure / volatility mismatch — direction may be reasonable but option payoff or IV/theta is poor.</text>
+<text x="620" y="365">4. Time decay / holding-period problem.</text>
+<text x="620" y="395">5. Correlated cluster / sizing — multiple positions lose together.</text>
+<text x="620" y="425">6. Data / R anomaly — risk estimates or structure logic create artificial extremes.</text>
+</g>
+<text x="70" y="475" fill="#f7cf53" font-family="Arial, sans-serif" font-size="16" font-weight="700">Performance lever: compress avoidable -1R to -5R outcomes without cutting off the existing +1R to +3R right tail.</text>
+<text x="45" y="545" fill="#879aad" font-family="Arial, sans-serif" font-size="13">Source: 2026 Trading Performance Review, page 8. Categories are a proposed audit framework, not completed causal classifications.</text>
+</svg>
