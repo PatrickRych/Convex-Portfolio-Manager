@@ -103,11 +103,21 @@ The performance-review layer closes the CONVEX feedback loop: the portfolio syst
 
 ![2026 Trading Performance Review scorecard](performance-review-scorecard.svg)
 
-The review reports **+$6,220 net realized P&L**, **39.9% return on fixed reference capital**, **284 closed trades**, a **1.20 profit factor**, and a **-21.7% maximum drawdown**. The central diagnostic is that positive dollar performance coexists with a much flatter risk-normalized trade distribution.
+The review reports **+$6,220 net realized P&L**, **39.9% return on fixed reference capital**, **284 closed trades**, a **1.20 profit factor**, and a **-21.7% maximum drawdown**.
+
+![Equity and drawdown diagnostics](performance-equity-drawdown.svg)
+
+The headline return is paired with the path of the year: the review describes a strong rise into August followed by a sharp clustered drawdown that remained unrecovered at the review date. This is why the performance layer is presented as a diagnostic system rather than a return summary.
 
 ![R-multiple distribution](performance-review-r-distribution.svg)
 
-Among the 259 trades with an R estimate, mean R is **-0.03R** and median R is **-0.01R**. The review therefore drills below headline P&L into strategy/setup attribution, winner concentration, drawdown clusters and the left tail. Reported pockets of positive expectancy include Tech and Income, while Trend and Hedge are flagged for further investigation. At setup level, Tech → Bull Pullback and Tech → Breakout are highlighted as stronger historical cells, while Tech → Highbase and several other combinations are treated as leakage candidates.
+Among the 259 trades with an R estimate, mean R is **-0.03R** and median R is **-0.01R**. Positive dollar performance therefore coexists with a much flatter risk-normalized trade distribution.
+
+![Strategy and setup attribution](performance-setup-attribution.svg)
+
+The review drills below broad strategy labels into setup-level expectancy. Reported pockets of positive expectancy include Tech and Income; Trend and Hedge are flagged for further investigation. At setup level, Tech → Bull Pullback and Tech → Breakout are stronger historical cells, while Tech → Highbase and several other combinations are treated as leakage candidates.
+
+![Left-tail performance diagnostic](performance-left-tail.svg)
 
 The next performance project is loss control rather than simply increasing activity: the review records **20 trades at or below -1R** versus **14 at or above +1R**, and proposes auditing large losses by thesis invalidation, option-structure/volatility mismatch, time decay, correlated sizing and data-quality issues.
 
@@ -204,7 +214,10 @@ Convex-Portfolio-Manager/
 ├── event-dashboard.png
 ├── performance-review.md
 ├── performance-review-scorecard.svg
+├── performance-equity-drawdown.svg
 ├── performance-review-r-distribution.svg
+├── performance-setup-attribution.svg
+├── performance-left-tail.svg
 ├── trade-journal.png
 ├── scenario-lab.png
 └── .gitignore
