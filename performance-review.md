@@ -12,7 +12,13 @@ The 2026 performance review is the feedback loop of the CONVEX system. The synth
 
 ## What the review establishes
 
-The report records **+$6,220 net realized P&L**, **39.9% return on fixed reference capital**, **284 closed trades**, a **1.20 profit factor**, and a **-21.7% maximum drawdown**. The dollar result is positive, but the risk-normalized distribution is much less uniform: 259 trades have an R estimate, with mean R of **-0.03R** and median R of **-0.01R**.
+The report records **+$6,220 net realized P&L**, **39.9% return on fixed reference capital**, **284 closed trades**, a **1.20 profit factor**, and a **-21.7% maximum drawdown**.
+
+![Equity and drawdown diagnostics](performance-equity-drawdown.svg)
+
+The source review describes the equity curve as rising strongly into August before a sharp clustered drawdown that remained unrecovered at the review date. The drawdown was materially deeper than the SPY benchmark drawdown shown in the source review, which is why the next iteration focuses on loss-tail control and recovery behavior rather than headline return alone.
+
+The dollar result is positive, but the risk-normalized distribution is much less uniform: 259 trades have an R estimate, with mean R of **-0.03R** and median R of **-0.01R**.
 
 ![R-multiple distribution](performance-review-r-distribution.svg)
 
@@ -30,6 +36,8 @@ The review separates broad strategy labels from the setups inside them. Reported
 - **Hedge:** n=27, -0.32R expectancy.
 - **Tech → Highbase:** n=10, -0.34R; a repeated leakage candidate.
 
+![Strategy and setup attribution](performance-setup-attribution.svg)
+
 The purpose is not to mechanically scale the highest historical cell. It is to identify which combinations deserve additional validation and which repeated losses deserve investigation before more capital is allocated.
 
 ## Why positive dollars can coexist with negative average R
@@ -43,6 +51,8 @@ The review identifies three reasons:
 ## The left tail is the main performance project
 
 The review records **20 trades at or below -1R** versus **14 trades at or above +1R**, with a worst trade of **-4.87R** and a best trade of **+3.73R**. It also reports that the worst 10% of trades account for roughly half of gross losses.
+
+![Left-tail performance diagnostic](performance-left-tail.svg)
 
 That turns the next research question from “how do I find more trades?” into “how much can the distribution improve if avoidable large losses are reduced without truncating the winners?”
 
