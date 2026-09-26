@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t d">
+<title id="t">2026 Trading Performance Review scorecard</title>
+<desc id="d">Reported journal-derived metrics: net realized P and L 6,220 dollars; return on reference capital 39.9 percent; 284 closed trades; profit factor 1.20; maximum drawdown negative 21.7 percent. Self-reported and unaudited.</desc>
+<rect width="1200" height="330" rx="20" fill="#091b2b"/>
+<text x="45" y="58" fill="#f3f7fb" font-family="Arial, sans-serif" font-size="30" font-weight="700">2026 TRADING PERFORMANCE REVIEW</text>
+<text x="45" y="88" fill="#92a8bc" font-family="Arial, sans-serif" font-size="16">Journal-derived performance diagnostics · self-reported · unaudited</text>
+<g font-family="Arial, sans-serif">
+<g transform="translate(45,125)"><rect width="205" height="130" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">NET REALIZED P&amp;L</text><text x="102.5" y="82" text-anchor="middle" fill="#ecf7f2" font-size="32" font-weight="700">+$6,220</text><rect y="125" width="205" height="5" fill="#6ee7b7"/></g>
+<g transform="translate(270,125)"><rect width="205" height="130" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">RETURN ON REF. CAPITAL</text><text x="102.5" y="82" text-anchor="middle" fill="#ecf7f2" font-size="32" font-weight="700">39.9%</text><rect y="125" width="205" height="5" fill="#67e8f9"/></g>
+<g transform="translate(495,125)"><rect width="205" height="130" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">CLOSED TRADES</text><text x="102.5" y="82" text-anchor="middle" fill="#ecf7f2" font-size="32" font-weight="700">284</text><rect y="125" width="205" height="5" fill="#38bdf8"/></g>
+<g transform="translate(720,125)"><rect width="205" height="130" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">PROFIT FACTOR</text><text x="102.5" y="82" text-anchor="middle" fill="#ecf7f2" font-size="32" font-weight="700">1.20</text><rect y="125" width="205" height="5" fill="#facc15"/></g>
+<g transform="translate(945,125)"><rect width="205" height="130" rx="14" fill="#102c43" stroke="#2b4f69"/><text x="102.5" y="34" text-anchor="middle" fill="#9fb1c1" font-size="13">MAX DRAWDOWN</text><text x="102.5" y="82" text-anchor="middle" fill="#ecf7f2" font-size="32" font-weight="700">-21.7%</text><rect y="125" width="205" height="5" fill="#fb7185"/></g>
+</g>
+<text x="45" y="302" fill="#879aad" font-family="Arial, sans-serif" font-size="13">Source: 2026 Trading Performance Review. Figures are historical journal analytics, not audited brokerage performance.</text>
+</svg>
