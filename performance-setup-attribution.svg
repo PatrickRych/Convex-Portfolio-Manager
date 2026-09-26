@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="t d">
+<title id="t">Strategy and setup attribution</title>
+<desc id="d">Reported R expectancy by strategy: Tech positive 0.23 R, Income positive 0.10 R, NOS positive 0.18 R, Fundamental positive 0.31 R, Trend negative 0.33 R, Hedge negative 0.32 R, Macro negative 0.17 R, Leap negative 0.07 R. Setup examples include Tech Bull Pullback positive 0.98 R, Tech Breakout positive 0.21 R, Tech Highbase negative 0.34 R and Trend No Setup negative 0.49 R.</desc>
+<rect width="1200" height="610" rx="20" fill="#091b2b"/>
+<text x="45" y="58" fill="#f3f7fb" font-family="Arial, sans-serif" font-size="30" font-weight="700">STRATEGY → SETUP ATTRIBUTION</text>
+<text x="45" y="87" fill="#92a8bc" font-family="Arial, sans-serif" font-size="16">The review separates broad strategy labels from the setups that actually drive expectancy.</text>
+<g font-family="Arial, sans-serif" font-size="14">
+<text x="55" y="135" fill="#72e5b0" font-size="18" font-weight="700">Reported positive expectancy</text>
+<text x="630" y="135" fill="#fb7d89" font-size="18" font-weight="700">Reported leakage candidates</text>
+<g fill="#dce8f2">
+<text x="55" y="175">Tech · n=55</text><text x="55" y="225">Income · n=37</text><text x="55" y="275">NOS · n=25</text><text x="55" y="325">Fundamental · n=9</text>
+<text x="630" y="175">Trend · n=39</text><text x="630" y="225">Hedge · n=27</text><text x="630" y="275">Macro · n=11</text><text x="630" y="325">Leap · n=48</text>
+</g>
+<g>
+<rect x="190" y="158" width="246" height="25" rx="7" fill="#3ecf9a"/><text x="448" y="176" fill="#8ff0c5">+0.23R</text>
+<rect x="190" y="208" width="107" height="25" rx="7" fill="#3ecf9a"/><text x="309" y="226" fill="#8ff0c5">+0.10R</text>
+<rect x="190" y="258" width="193" height="25" rx="7" fill="#3ecf9a"/><text x="395" y="276" fill="#8ff0c5">+0.18R</text>
+<rect x="190" y="308" width="332" height="25" rx="7" fill="#3ecf9a"/><text x="534" y="326" fill="#8ff0c5">+0.31R</text>
+<rect x="775" y="158" width="354" height="25" rx="7" fill="#ef6b79"/><text x="740" y="176" text-anchor="end" fill="#ffadb5">-0.33R</text>
+<rect x="775" y="208" width="343" height="25" rx="7" fill="#ef6b79"/><text x="740" y="226" text-anchor="end" fill="#ffadb5">-0.32R</text>
+<rect x="775" y="258" width="182" height="25" rx="7" fill="#ef6b79"/><text x="740" y="276" text-anchor="end" fill="#ffadb5">-0.17R</text>
+<rect x="775" y="308" width="75" height="25" rx="7" fill="#ef6b79"/><text x="740" y="326" text-anchor="end" fill="#ffadb5">-0.07R</text>
+</g>
+</g>
+<rect x="45" y="375" width="1110" height="165" rx="14" fill="#102c43" stroke="#2b4f69"/>
+<text x="70" y="412" fill="#42d4f4" font-family="Arial, sans-serif" font-size="18" font-weight="700">SETUP-LEVEL READ</text>
+<g font-family="Arial, sans-serif" font-size="15" fill="#dce8f2">
+<text x="70" y="449">• Tech → Bull Pullback: n=9, +0.98R average, PF 5.02 — strongest reported cell, but still a modest sample.</text>
+<text x="70" y="479">• Tech → Breakout: n=25, +0.21R — larger sample and more credible historical positive expectancy.</text>
+<text x="70" y="509">• Tech → Highbase: n=10, -0.34R; Trend → No Setup: n=14, -0.49R — repeated leakage candidates.</text>
+</g>
+<text x="45" y="582" fill="#879aad" font-family="Arial, sans-serif" font-size="13">Source: 2026 Trading Performance Review, pages 5 and 7. Historical cells should be validated before changing position size.</text>
+</svg>
