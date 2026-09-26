@@ -2,7 +2,7 @@
 
 **CONVEX trade-review layer · journal-derived historical analytics · self-reported and unaudited**
 
-[← Back to CONVEX Portfolio Manager](README.md)
+[← Back to CONVEX Portfolio Manager](README.md) · **[Metric legend](performance-metric-legend.md)**
 
 The 2026 performance review is the feedback loop of the CONVEX system. The synthetic demo shows how the portfolio-management architecture works; this review shows how the trading journal is used to diagnose the *process after trades close* — separating dollar profitability from risk-normalized expectancy, locating strategy/setup edge, measuring drawdown, and identifying where loss control can improve the distribution.
 
