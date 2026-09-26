@@ -2,7 +2,7 @@
 
 **Options portfolio risk and decision-support system built from a discretionary trading workflow.**
 
-> **Portfolio project:** CONVEX began as a private Excel-based portfolio-management system designed to translate option positions into leg-level Greeks, position analytics, portfolio exposures, risk limits, scenario analysis, and management signals. This repository contains a **public synthetic demonstration workbook** using a fictional **$100,000 portfolio**. All positions, account values, and performance figures shown here are synthetic and are included only to demonstrate the system's functionality.
+> **Portfolio project:** CONVEX began as a private Excel-based portfolio-management system designed to translate option positions into leg-level Greeks, position analytics, portfolio exposures, risk limits, scenario analysis, and management signals. This repository contains a **public synthetic demonstration workbook** using a fictional **$100,000 portfolio**. The demo workbook and demo screenshots are synthetic. A separate **2026 Trading Performance Review** uses historical trading-journal data to evaluate the decision process after trades close; those review figures are self-reported and unaudited and are clearly separated from the synthetic demo.
 
 ![CONVEX Risk Manager](risk-manager.png)
 
@@ -62,7 +62,7 @@ The original model contains a deliberate two-way dependency between **Positional
 
 ## Synthetic demonstration views
 
-The screenshots below come from the public demonstration copy of CONVEX. **Every position, account value, and performance figure shown is fictional. No live account data or actual investment performance is presented.**
+The screenshots in this subsection come from the public demonstration copy of CONVEX. **Every position and account value shown in these demo views is fictional.** The separate 2026 performance-review section below is journal-derived historical analysis and is explicitly labeled as self-reported and unaudited.
 
 ### Position analytics
 
@@ -82,12 +82,6 @@ Risk View converts position-level option structures into individual legs, applie
 
 The event dashboard maintains a forward calendar of macro, options-expiration, volatility, and portfolio-review events. Event proximity can feed back into position-management rules.
 
-### Synthetic historical trade analytics
-
-![Historical Performance](historical-performance.png)
-
-The historical-performance view is populated with **synthetic closed trades** solely to demonstrate how the framework evaluates results by strategy, structure, DTE, and time utilized. It is **not a live or claimed investment track record**.
-
 <details>
 <summary>Additional demo screenshots</summary>
 
@@ -100,6 +94,24 @@ The historical-performance view is populated with **synthetic closed trades** so
 ![Scenario Lab](scenario-lab.png)
 
 </details>
+
+## 2026 Trading Performance Review
+
+The performance-review layer closes the CONVEX feedback loop: the portfolio system measures current exposure and position risk, while the journal review asks whether completed trades are producing repeatable outcomes.
+
+> **Performance disclosure:** The figures below come from the supplied 2026 trading-journal review. They are historical, self-reported and unaudited. They are **not** part of the synthetic demo, have not been reconciled to brokerage statements in this repository, and should not be interpreted as audited investment performance.
+
+![2026 Trading Performance Review scorecard](performance-review-scorecard.svg)
+
+The review reports **+$6,220 net realized P&L**, **39.9% return on fixed reference capital**, **284 closed trades**, a **1.20 profit factor**, and a **-21.7% maximum drawdown**. The central diagnostic is that positive dollar performance coexists with a much flatter risk-normalized trade distribution.
+
+![R-multiple distribution](performance-review-r-distribution.svg)
+
+Among the 259 trades with an R estimate, mean R is **-0.03R** and median R is **-0.01R**. The review therefore drills below headline P&L into strategy/setup attribution, winner concentration, drawdown clusters and the left tail. Reported pockets of positive expectancy include Tech and Income, while Trend and Hedge are flagged for further investigation. At setup level, Tech → Bull Pullback and Tech → Breakout are highlighted as stronger historical cells, while Tech → Highbase and several other combinations are treated as leakage candidates.
+
+The next performance project is loss control rather than simply increasing activity: the review records **20 trades at or below -1R** versus **14 at or above +1R**, and proposes auditing large losses by thesis invalidation, option-structure/volatility mismatch, time decay, correlated sizing and data-quality issues.
+
+**[Read the full 2026 performance-review analysis](performance-review.md)**
 
 ## Quantitative components
 
@@ -150,6 +162,7 @@ This project is intended to demonstrate my ability to:
 - build auditable models in Excel using dynamic arrays and formula-driven logic
 - identify model limitations and data-quality risks
 - communicate a complex analytical workflow clearly
+- evaluate closed-trade quality through R-multiples, drawdown, setup attribution, loss-tail analysis, and process feedback
 
 I built CONVEX as a **self-directed project**. It should not be interpreted as institutional software, audited risk infrastructure, or investment advice.
 
@@ -160,6 +173,7 @@ I built CONVEX as a **self-directed project**. It should not be interpreted as i
 - the production stress framework is simplified relative to a full nonlinear portfolio simulation
 - the current implementation is Excel-first and contains logic that would be easier to test and version-control in Python
 - the private model relies on external data availability
+- the 2026 performance review is self-reported and unaudited; some closed trades lack an R estimate, and the current R definition is capital-R rather than planned-stop R
 
 A fuller discussion is available in [`limitations.md`](limitations.md).
 
@@ -188,7 +202,9 @@ Convex-Portfolio-Manager/
 ├── risk-view.png
 ├── positional-analysis.png
 ├── event-dashboard.png
-├── historical-performance.png
+├── performance-review.md
+├── performance-review-scorecard.svg
+├── performance-review-r-distribution.svg
 ├── trade-journal.png
 ├── scenario-lab.png
 └── .gitignore
@@ -196,4 +212,4 @@ Convex-Portfolio-Manager/
 
 ---
 
-**Disclaimer:** This repository is an analytical portfolio project for demonstration and research purposes only. All displayed portfolio and performance data are synthetic. It is not financial advice, a recommendation to trade, or a production risk-management system.
+**Disclaimer:** This repository is an analytical portfolio project for demonstration and research purposes only. The public demo portfolio and its position screenshots are synthetic. The separate 2026 performance review is journal-derived, self-reported historical analysis and is unaudited. Nothing in this repository is financial advice, a recommendation to trade, or a production risk-management system.
